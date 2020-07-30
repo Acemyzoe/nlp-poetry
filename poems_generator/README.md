@@ -59,38 +59,5 @@ print(sen)
 输出结果：    
 ```
 争空谁上尽，云云中林翠。日落危西烟，夏更无长塞。
-```
- 
-**其他方法调用请看notebook，里面都有。**       
-
-
-
-如何使用训练好的模型：
--------
-1. 我训练好了一个h5模型，点击[页面](https://www.floydhub.com/youyuge34/projects/poems_generator/4/output/poetry_model.h5)中右侧的小箭头可下载，迅雷满速
-2. 将`poetry_model.h5`放入根目录，记得改一下`self.loaded_model = True`
-3. 注意，此模型只跑了4000+epoch，还有提升空间       
-            
-        
-            
-更新说明：
-------------
-
-**Version 1.1:**
-
-- 代码大幅度重构，更加简洁                           
-- 添加多个模型方法，可按需要生成诗句        
-- notebook中添加样例        
- 
-    
-**Version 1.0:**    
-     
-在[ioiogoo](https://github.com/ioiogoo/poetry_generator_Keras)的架构之上进行优化：
-
-- 改用`Jupyter notebook`    
-- 数据只使用五言绝句，否则输出不稳定    
-- 修复`bugs`  
-- 精简代码   
-- 训练时的测试数据会写入`out/out.txt`   
-- 训练时的测试输入为随机一首诗的开头，确保输出好看   
-- ………………   
+``
+  
